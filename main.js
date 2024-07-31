@@ -1,8 +1,8 @@
-let menuIcon = document.querySelector('#menu-icon');
+let menuicon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('navbar');
 
-menuIcon.onclick = () => {
-    menuIcon.classList.toggle('fa-x');
+menuicon.onclick = () => {
+    menuicon.classList.toggle('fa-x');
     navbar.classList.toggle('active')
 }
 
