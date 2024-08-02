@@ -472,6 +472,9 @@ span {
     .projects {
         padding-bottom: 7rem;
     }
+    .achievements {
+        padding-bottom: 7rem;
+    }
     .contact {
         min-height: auto;
     }
@@ -531,6 +534,12 @@ span {
     .projects-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .achievements h2 {
+        margin-bottom: 3rem;
+    }
+    .achievements-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 617px) {
@@ -549,6 +558,10 @@ span {
         display: block;
     }
     .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .achievements-container {
         grid-template-columns: 1fr;
     }
 
